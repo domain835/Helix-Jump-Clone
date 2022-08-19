@@ -11,6 +11,8 @@ public class GameState : MonoBehaviour
         Loss,
     }
 
+    public AudioSource bkgMusic;
+
     public State CurrentState { get; private set; }
 
     public void OnPlayerDied()
